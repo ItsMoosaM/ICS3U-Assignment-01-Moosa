@@ -8,8 +8,8 @@
 }
 
 header img {
-  
-  position: relative;
+
+  position: fixed;
   height: 60px;
 }
 
@@ -28,7 +28,7 @@ ul {
   width: 100%;
 }
 
-li{
+li {
   float: left;
   margin-bottom: auto;
 }
@@ -65,10 +65,14 @@ h2 {
 
   margin-top: 5px;
   margin-bottom: 5px;
-  
 }
 
-h4{
+h3{
+  font-size: 60px;
+  text-decoration: underline;
+}
+
+h4 {
   font-size: x-large;
   width: 70%;
 }
@@ -77,11 +81,19 @@ h4{
   height: 100px;
 
   text-align: center;
-  padding-top: 50px;
+  padding-top: 90px;
   text-decoration: overline underline;
   color: #d4af37;
   background-color: #0000007f;
   font-size: 50px;
+}
+
+.space{
+  height: 40px;
+}
+
+p{
+  font-size:  x-large;
 }
 
 h2 {
