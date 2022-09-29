@@ -26,15 +26,19 @@ header img {
   width: 50px;
 }
 
-hr{
+a {
+  text-decoration: none;
+}
+
+hr {
   border: 4px solid #d4af37;
 }
 
-header img:hover{
-  transform: scale(1.04);
+header img:hover {
+  transform: scale(1.1);
   rotate: 180deg;
   transition: rotate 1s linear;
-  
+
 }
 
 body {
@@ -94,7 +98,7 @@ li a:hover:not(.selected) {
 }
 */
 
-h3{
+h3 {
   font-size: 60px;
   text-decoration: underline;
 }
@@ -104,19 +108,24 @@ h4 {
   width: 70%;
 }
 
-.space{
+.space {
   height: 40px;
 }
 
-p{
-  font-size:  x-large;
+p {
+  font-size: x-large;
 }
 
 h2 {
+  padding: 0px 10px;
   text-align: center;
   color: #d4af37;
 }
 
-h5 a{
+h5 a {
   text-decoration: none;
+}
+
+iframe {
+  border: #d4af37 8px solid black;
 }
