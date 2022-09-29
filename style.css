@@ -98,6 +98,12 @@ li a:hover:not(.selected) {
 }
 */
 
+h2 {
+  padding: 0px 10px;
+  text-align: center;
+  color: #d4af37;
+}
+ 
 h3 {
   font-size: 60px;
   text-decoration: underline;
@@ -116,11 +122,6 @@ p {
   font-size: x-large;
 }
 
-h2 {
-  padding: 0px 10px;
-  text-align: center;
-  color: #d4af37;
-}
 
 h5 a {
   text-decoration: none;
