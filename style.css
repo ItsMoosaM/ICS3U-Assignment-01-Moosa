@@ -120,6 +120,7 @@ h4 {
 
 p {
   font-size: x-large;
+  text-decoration: underline overline;
 }
 
 
