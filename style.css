@@ -119,6 +119,7 @@ h4 {
 }
 
 p {
+  padding: 0% 0% 4% 4%;
   font-size: x-large;
   text-decoration: underline overline;
 }
