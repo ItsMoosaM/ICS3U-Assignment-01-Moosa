@@ -7,6 +7,36 @@
   font-family: 'Lilita One';
 }
 
+.body{
+  background-color: #d4af37;
+}
+
+/* .grid-container{
+  display: grid;
+  row-gap: 5px;
+  grid-template-columns: repeat(6 1fr);
+  grid-template-rows: repeat(10 1fr);
+
+  grid-template-areas:
+  "navbar navbar navbar navbar navbar navbar"
+  "navbar navbar navbar navbar navbar navbar"
+
+  "title title title title title title "
+  "title title title title title title "
+
+  "intro intro intro intro intro intro"
+  "intro intro intro intro intro intro"
+
+  "about about about about about about"
+
+  "backToLifeGame backToLifeGame backToLifeGame backToLifeGame backToLifeGame backToLifeGame "
+  "itchEmbed itchEmbed itchEmbed itchEmbed itchEmbed itchEmbed"
+  "footer footer footer footer footer footer";
+background-color: #d4af37;
+  width: 100%;
+  aspect-ratio: 1 / 2;
+} */
+
 #title {
   height: 100px;
 

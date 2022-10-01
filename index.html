@@ -12,9 +12,9 @@
 
   <link rel="stylesheet" href="style.css">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="Favicon\GoldLogo.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="Favicon\GoldLogo.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="Favicon\GoldLogo.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./Favicon\GoldLogo.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./Favicon\GoldLogo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./Favicon\GoldLogo.png">
   <link rel="manifest" href="./Favicon/site.webmanifest">
 
   <title>Games I Have Made|Home</title>
@@ -22,53 +22,60 @@
 
 
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a class="selected" href="index.html">Home</a></li>
-        <li><a href="theGames.html">Games</a></li>
-      </ul>
-    </nav>
-    <a href="index.html"><img src=".\Favicon\GoldLogo.png" id="logo"></a>
-  </header>
-  
-  <br>
-  <h1 id="title">Games I Have Made/Home</h1>
-  <hr />
-  <br>
-  <h2>This Website Will Show Some Of The Games I Have Made Using <a
-      href="https://www.google.com/search?q=unity+technologies&rlz=1C1GCEA_enCA924CA1022&ei=Ii0rY5-3IM-JptQPvJywsAM&gs_ssp=eJzj4tLP1TcoMi5LzjJVYDRgdGDwEirNyyypVChJTc7Iy8_JT89MLQYAvekLeA&oq=unity+&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgGMgoIABCxAxCDARBDMgoIABCxAxCDARBDMgoIABCxAxCDARBDMgQIABBDMgsIABCABBCxAxCDATILCAAQgAQQsQMQgwEyEQguEIAEELEDEIMBEMcBENEDMgoIABCxAxCDARBDMggIABCxAxCDATIRCC4QgAQQsQMQgwEQxwEQ0QM6CggAEEcQ1gQQsAM6BwgAELADEEM6DQgAEOQCENYEELADGAE6EgguEMcBENEDEMgDELADEEMYAkoECEEYAEoECEYYAVDxDVjxDWCGHmgCcAF4AIABXIgBXJIBATGYAQCgAQHIARPAAQHaAQYIARABGAnaAQYIAhABGAg&sclient=gws-wiz-serp"
-      target="_blank">Unity</a> and C#</h2>
-  <br>
+  <div class="grid-container">
+    <div class="grid-items navbar">
+      <header>
+        <nav>
+          <ul>
+            <li><a class="selected" href="index.html">Home</a></li>
+            <li><a href="theGames.html">Games</a></li>
+          </ul>
+        </nav>
+        <a href="index.html"><img src=".\Favicon\GoldLogo.png" id="logo"></a>
+      </header>
+    </div>
 
-
-  <main>
+    <div class="grid-items title">
+      <h1 id="title">Games I Have Made/Home</h1>
+    </div>
     <hr />
+    <div class="grid-items intro">
+      <br>
+      <h2>This Website Will Show Some Of The Games I Have Made Using <a
+          href="https://www.google.com/search?q=unity+technologies&rlz=1C1GCEA_enCA924CA1022&ei=Ii0rY5-3IM-JptQPvJywsAM&gs_ssp=eJzj4tLP1TcoMi5LzjJVYDRgdGDwEirNyyypVChJTc7Iy8_JT89MLQYAvekLeA&oq=unity+&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgGMgoIABCxAxCDARBDMgoIABCxAxCDARBDMgoIABCxAxCDARBDMgQIABBDMgsIABCABBCxAxCDATILCAAQgAQQsQMQgwEyEQguEIAEELEDEIMBEMcBENEDMgoIABCxAxCDARBDMggIABCxAxCDATIRCC4QgAQQsQMQgwEQxwEQ0QM6CggAEEcQ1gQQsAM6BwgAELADEEM6DQgAEOQCENYEELADGAE6EgguEMcBENEDEMgDELADEEMYAkoECEEYAEoECEYYAVDxDVjxDWCGHmgCcAF4AIABXIgBXJIBATGYAQCgAQHIARPAAQHaAQYIARABGAnaAQYIAhABGAg&sclient=gws-wiz-serp"
+          target="_blank">Unity</a> and C#</h2>
+    </div>
     <br>
-    <h4>Most of the games I created were made with the help of tutorials, and were made to learn skills I was interested
-      in, like: C#, Unity, Game development, and Programming in General. </h4>
+    <div class="grid-items about">
+      <h4>Most of the games I created were made with the help of tutorials, and were made to learn skills I was
+        interested
+        in, like: C#, Unity, Game development, and Programming in General. </h4>
+    </div>
     <br>
     <hr />
-  </main>
-  <br>
-  <h3>Back To Life</h3>
-  <br>
-  <iframe src="https://i.simmer.io/@Gaming_M/back-to-life" style="width:600px;height:500px"></iframe>
-  <div class="space">
+    <div class="grid-items backToLifeGame ">
+      <br>
+      <h3>Back To Life</h3>
+      <br>
+      <iframe src="https://i.simmer.io/@Gaming_M/back-to-life" style="width:600px;height:500px"></iframe>
+      <div class="space"></div>
+      <div class="grid-items itchEmbed">
+        <p>This Was A Platformer I Made With Unity For the <a href="https://www.gamedev.tv/" target="_blank">GDTV</a>
+          Game Jam
+          2022</p>
 
-  </div>
-  <p>This Was A Platformer I Made With Unity For the <a href="https://www.gamedev.tv/" target="_blank">GDTV</a> Game Jam
-    2022</p>
 
+        <iframe width="552" height="167" frameborder="0" src="https://itch.io/embed/1546405?dark=true"><a
+            href="https://gaming-m.itch.io/back-to-life">Back To Life by Gaming M</a></iframe>
+      </div>
 
-  <iframe width="552" height="167" frameborder="0" src="https://itch.io/embed/1546405?dark=true"><a
-      href="https://gaming-m.itch.io/back-to-life">Back To Life by Gaming M</a></iframe>
-
-  <div class="space"></div>
-
-  <h5>This Site Was Created By <a target="_blank" href="https://itsmoosamughal.wixsite.com/website">Moosa Mughal</a>
-  </h5>
-  <div class="space"></div>
+      <div class="grid-items footer">
+        <br>
+        <br>
+        <h5>This Site Was Created By <a target="_blank" href="https://itsmoosamughal.wixsite.com/website">Moosa
+            Mughal</a>
+        </h5>
+      </div>
+    </div>
 </body>
-
 </html>
